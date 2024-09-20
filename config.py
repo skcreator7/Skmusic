@@ -17,9 +17,9 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
 
 LOGGER_ID = int(getenv("LOGGER_ID", -1001971806089))
 
-OWNERS = list(map(int, getenv("OWNERS", "7045191057 7137269276 2105971379").split()))
+OWNERS = list(map(int, getenv("OWNERS", "5928972764").split()))
 
-OWNER_ID = int(getenv("OWNER_ID", 7045191057))
+OWNER_ID = int(getenv("OWNER_ID", 5928972764))
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
@@ -27,7 +27,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY","HK543fklqxgt66hvxf")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/AbhiModszYT/AnieXEricaMusic",
+    "https://github.com/skcreator7/skmusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(

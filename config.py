@@ -15,7 +15,7 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
 
-LOGGER_ID = int(getenv("LOGGER_ID", -1002193268219))
+LOGGER_ID = int(getenv("LOGGER_ID", -1001603714460))
 
 OWNERS = list(map(int, getenv("OWNERS", "5928972764").split()))
 
